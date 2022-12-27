@@ -1,17 +1,24 @@
+import Image from 'next/image'
 import React from 'react'
-
+import man from '../public/image/image2.png'
 type Props = {}
 
 const Part1 = (props: Props) => {
   return (
-    <div className='space-y-10'>
-     <div className=' bg-[#FAF8F8] flex justify-between items-center space-y-10 mx-auto'>
-        <div className='space-y-10 mx-auto'>
-        <p className='text-5xl'>Quality with Excellence,<br/> Accurate and Precise.</p>
-        <button className='uppercase ml-20 bg-[#95C24D] py-1 px-2 rounded-sm text-white'>
+    <div className=''>
+     <div className=' bg-[#FAF8F8] flex justify-between items-center  mx-auto'>
+        <div className='ml-[140px] mx-auto'>
+        <div className='flex space-x-1 mt-[151px]'>
+            <div className='h-[4px] w-[17.24px] bg-black'/>
+            <div className='h-[4px] w-[17.24px] bg-gray-400 '/>
+            <div className='h-[4px] w-[17.24px] bg-gray-400 '/>
+        </div>
+        <p className='text-[48px] mt-[55px]'>Quality with Excellence,<br/> Accurate and Precise.</p>
+        <button className='uppercase bg-[#95C24D] py-[13px] px-[41px] rounded-sm text-white text-[18px] mt-[71px] mb-[189px] '>
             See all products</button>    
         </div>
-        <img src="public/image/image2.png" alt="man" className=''/>
+        {/* <img src="public/image/image2.png" alt="man" className=''/> */}
+        <Image src={man} className='w-[948px] z-0 clip1' />
 
      </div>
      {/* part2 */}

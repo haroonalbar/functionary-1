@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+
+    .clip1 {
+ 
+        clip-path: polygon(30% 0, 100% 0, 100% 100%,20% 100%, 0 calc(100% - 6vw));
+ 
+    }
+ 
+ }

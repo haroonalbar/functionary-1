@@ -5,9 +5,9 @@ type Props = {}
 
 const Header = (props: Props) => {
   return (
-    <header className='sticky top-0'>
+    <header className='bg-white '>
 
-    <div className=' py-5 flex justify-between space-x-5 items-center'>
+    <div className='max-w-7xl mx-auto  py-5 flex justify-between space-x-5 items-center'>
         {/* <img src='./public/image/image1.png' alt="logo" className='w-10 h-10 object-contain' /> */}
         <Image src={logo} alt='logo' className='w-[130px]'/>
         <div className='flex space-x-28 '>

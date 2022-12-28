@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     theme: {
       fontFamily: {
-       
+        'tomorrow': ['Tomorrow', 'Geometric', 'Techno' ,'Sans-serif'],
+
       }
     },
   },

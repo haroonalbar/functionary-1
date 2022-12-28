@@ -1,11 +1,11 @@
 import Image from 'next/image'
 import React from 'react'
-import logo from '../public/image/image1.png'
+import logo from '../public/image/image1.svg'
 type Props = {}
 
 const Header = (props: Props) => {
   return (
-    <div className=' z-30 sticky top-0'>
+    <header className='sticky top-0'>
 
     <div className=' py-5 flex justify-between space-x-5 items-center'>
         {/* <img src='./public/image/image1.png' alt="logo" className='w-10 h-10 object-contain' /> */}
@@ -19,7 +19,7 @@ const Header = (props: Props) => {
           <div className=' header '>Contact us</div>
         </div>
     </div>
-    </div>
+    </header>
   )
 }
 

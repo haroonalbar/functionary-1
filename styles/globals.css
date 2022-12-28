@@ -1,7 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Tomorrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow&display=swap');
+*{
+    font-family:  'Manrope', 'Arial', 'Verdana', sans-serif;
+}
 @layer utilities {
 
     .clip1 {
@@ -15,4 +19,14 @@
     .header{
         @apply uppercase text-[16px] text-[#808080] hover:text-black py-2  border-b-4 border-[rgba(0,0,0,0)] hover:border-[#95C24D]
     }
+    .tomorrow{
+        font-family: 'Tomorrow', 'Geometric', 'Techno' ,Sans-serif;
+    }
+    .serviceBox{
+        @apply bg-white h-[188px] w-[266px] p-4  relative
+    }
+    .servicesBottomText{
+        @apply text-[20px] max-w-[146px] font-semibold uppercase tomorrow absolute bottom-4 left-4
+    }
  }
+/* parent div of absolute should be relative */

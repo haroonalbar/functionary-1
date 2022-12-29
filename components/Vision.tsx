@@ -27,7 +27,7 @@ const Vision = (props: Props) => {
                     Striving to be the best in its class by offering a superior product with regard to the standard of workmanship and knowledge, safe working procedures, practices and policies and the installation of quality apparatus. With power division being an integral part of our lifestyle and the cornerstone for our quality of life, there is a continuing need for products and services to harness its use. To this end, whilst acting as a responsible corporate citizen, we are faithful to the investigation and development of economical and environmentally-sustainable solutions for our commercial, industrial and domestic clients alike. We continue to drive forward, offering new technology, products and business methods. Our vast product offering encompasses Electrical, HVAC, Fire System, Switchgear &amp; Control Panels and Network Communication Systems &amp; Components.
                     </p>
                 </div>
-                    <div className='mt-[100px]'>
+                    <div className='mt-[100px] mb-[110px]'>
                         <ul className='space-y-[24px]'>
                             <li className='shock'>Being recognized and compensated for our abilities, achievements and advancements</li>
                             <li className='shock'>Encouraging and exploring alternative forms of energy generation</li>

@@ -23,7 +23,7 @@
  }
  @layer components{
     .header{
-        @apply uppercase text-[16px] text-[#808080] hover:text-black py-2  border-b-4 border-[rgba(0,0,0,0)] hover:border-[#95C24D]
+        @apply uppercase text-[16px] text-[#808080] hover:text-black py-4  border-b-4 border-[rgba(0,0,0,0)] hover:border-[#95C24D]
     }
     .tomorrow{
         font-family: 'Tomorrow', 'Geometric', 'Techno' ,Sans-serif;

@@ -8,6 +8,7 @@ import Services from '../components/Services'
 import Utilities from '../components/Utilities'
 import About from '../components/About'
 import Vision from '../components/Vision'
+import Credits from '../components/Credits'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +23,7 @@ export default function Home() {
       <Utilities/>
       <About/>
       <Vision/>
+      <Credits/>
     </>
   )
 }

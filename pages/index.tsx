@@ -19,13 +19,27 @@ export default function Home() {
     <div className='sticky top-0 z-40'>
       <Header/>
     </div>
+    <section id='home'>
       <Part1/>
+    </section>
+    <section id='services' >
       <Services/>
+    </section>
+    <section id='utilities'>
       <Utilities/>
+    </section>
+    <section id='about'>
       <About/>
+    </section>
+    <section id='vision'>
       <Vision/>
+    </section>
+    <section id='credits'>
       <Credits/>
+    </section>
+      <section id='contact'>
       <Contact/>
+      </section>
     </>
   )
 }

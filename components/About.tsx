@@ -22,7 +22,15 @@ const About = (props: Props) => {
                 Our work was appreciated favorably in a short period of time and it grew into a huge success. The industrial sector responded admirably to our services and work. The untiring efforts and honesty of labor is the key treasure of the company. A team of engineers, supervisors, foremen and technicians keep exploring new and modern techniques so that the optimum standard of quality work may be achieved. Quality of work with excellence and perfection is the main motive of the company which has always been the preference but the suggestions of customers are most valuable to us. Our future is secured with the knowledge that we have differentiated ourselves by offering the best products with unparalleled levels of customer empathy and service.
                 </p>
             </div>
-            
+            <div className='flex mt-[200px] space-x-[130px] relative'>
+                <div className='ml-[133px]'><span className='font-medium text-xs absolute bottom-[85px]'>AWARDS</span><div className='w-[36px] h-[79px] bg-[#95C24D] absolute bottom-0  '/><span className='tomorrow font-medium text-xs absolute top-4 -rotate-90'>2022</span></div>
+                <div><span className='font-medium text-xs absolute bottom-[50px]'>ACHIEVEMENTS</span><div className='w-[36px] h-[44px] bg-[#95C24D] absolute bottom-0  '/><span className='tomorrow font-medium text-xs absolute top-4 -rotate-90'>2018</span></div>
+                <div><span className='font-medium text-xs absolute bottom-[30px]'>EXPANDED</span><div className='w-[36px] h-[26px] bg-[#95C24D] absolute bottom-0  '/><span className='tomorrow font-medium text-xs absolute top-4 -rotate-90'>2009</span></div>
+                <div><span className='font-medium text-xs absolute bottom-[15px]'>FOUNDED</span><div className='w-[36px] h-[10px] bg-[#95C24D] absolute bottom-0  '/><span className='tomorrow font-medium text-xs absolute top-4 -rotate-90'>1993</span></div>
+                <div><span className='uppercase tomorrow font-medium text-2xl absolute right-10 bottom-5'>Story Line</span></div>
+            </div>
+            <div className='h-[1px] bg-black w-[1158px]'></div>
+            <div className='h-[500px]'></div>
 
         </div>
     </div>

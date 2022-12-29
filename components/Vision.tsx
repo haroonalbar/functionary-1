@@ -16,7 +16,7 @@ const Vision = (props: Props) => {
             <Image src={group} alt='vector group' className='pl-[30px]'/>
         </div>
         <div className='ml-[140px] relative'>
-            <h1 className=' text-[48px] pt-[200px] '>
+            <h1 className=' text-[48px] pt-[200px] font-medium'>
             Vision
             </h1>
                 <div className='w-[469px] h-[398px] bg-[#95C24D] float-right absolute right-0 top-[250px] clip3'></div>

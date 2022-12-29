@@ -21,7 +21,7 @@ function Utilities({}: Props) {
     <div className='ml-[140px] mr-[143px]'>
         <div className='flex justify-between'>
 
-        <h1 className='text-[48px] py-[80px] '>Utilities</h1>
+        <h1 className='text-[48px] py-[80px] font-medium'>Utilities</h1>
         <Image src={top} alt='group name' className='object-contain'/>
         </div>
         <div className='flex justify-between pb-[105px]'>

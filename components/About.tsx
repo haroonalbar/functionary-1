@@ -11,7 +11,7 @@ const About = (props: Props) => {
         <div className='w-[366px] h-[752px] float-right bg-[#95C24D] '/>
         <div className='ml-[140px] mr-[143px] relative'>
             <Image src={rightImg} alt='image' className='float-right absolute right-[139px] top-[253px]'/>
-            <h1 className=' text-[48px] pt-[154px] '>
+            <h1 className=' text-[48px] pt-[154px] font-medium '>
             About us
             </h1>
             <div className='max-w-[640px]'>

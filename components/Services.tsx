@@ -18,7 +18,7 @@ const Services = (props: Props) => {
   return (
     <div className='bg-[#F4F4F4]'>
     <div className='ml-[140px]  '>
-        <h1 className=' text-[48px] py-[80px] '>
+        <h1 className=' text-[48px] py-[80px] font-medium '>
         Services
         </h1>
         <div>

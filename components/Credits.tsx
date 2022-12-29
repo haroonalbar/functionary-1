@@ -11,9 +11,9 @@ type Props = {}
 
 const  Credits = (props: Props) => {
   return (
-    <div className='h-[817px] bg-[#95C24D] relative'>
-        <Image src={corner} alt='design element' className='absolute right-0 top-[-30px]'/>
-        <Image src={corner} alt='design element' className='absolute left-[-70px] bottom-[-110px]'/>
+    <div className='h-[817px] bg-[#95C24D] relative overflow-hidden'>
+        <Image src={corner} alt='design element' className='overflow-hidden absolute right-0 top-[-30px]'/>
+        <Image src={corner} alt='design element' className='overflow-hidden absolute left-[-70px] bottom-[-110px]'/>
         <div className='items-center h-[817px] justify-center mx-auto flex space-x-6'>
             <div className='h-[530px] w-[465px] bg-white relative'>
                 <div className='py-[50px] pl-[40px] pr-[95px] space-y-3'>

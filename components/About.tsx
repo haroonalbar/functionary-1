@@ -30,7 +30,6 @@ const About = (props: Props) => {
                 <div><span className='uppercase tomorrow font-medium text-2xl absolute right-10 bottom-5'>Story Line</span></div>
             </div>
             <div className='h-[1px] bg-black w-[1158px]'></div>
-            <div className='h-[500px]'></div>
 
         </div>
     </div>

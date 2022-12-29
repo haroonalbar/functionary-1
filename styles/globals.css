@@ -13,6 +13,12 @@
         clip-path: polygon(30% 0, 100% 0, 100% 100%,20% 100%, 0 calc(100% - 6vw));
  
     }
+    .clip2{
+        clip-path: polygon(53% 0,100% 0,100% 100%,0 100%)
+    }
+    .clip3{
+        clip-path: polygon(25% 15%,100% 100%,0 100%)
+    }
  
  }
  @layer components{
@@ -28,5 +34,11 @@
     .servicesBottomText{
         @apply text-[20px] max-w-[146px] font-semibold uppercase tomorrow absolute bottom-4 left-4
     }
+    .shock{
+        background: url('../public/image/VectorDot.svg') no-repeat left top;
+        /* padding-top: 7px; */
+        padding-bottom: 8px;
+        padding-left: 44px;
+      }
  }
 /* parent div of absolute should be relative */
